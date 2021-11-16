@@ -9,26 +9,32 @@ h1.title{
 h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier, monospace
 }
-.name{
+h2{
+    font-size: 40px;
+}
+p{
+color: rgb(83, 81, 81);
+}
+.name_highlight{
     color: yellowgreen;
 }
-div{
+/* div{
      border: 1px solid;
     border-color: tomato;; 
-}
-#half-width_1{
+} */
+#section1_div1{
     width: 55%;
     float: left;
     /* background-color: pink; */
     height: 100%;
 }  
-#half-width_2{
+#section1_div2{
     width: 35%;
     float: right;
     /* background-color: violet; */
     height: 100%;
 }  
-#half-width_2 img {
+#section1_div2 img {
     width: 100%;
 }
 #section1{
@@ -39,7 +45,66 @@ div{
     padding-left: 5%;
     padding-right: 5%;
 }
-/* #section2{
-    height: 200px;
-    background-image: url("/images/top-banner.png"); 
-} */
+a{
+    background-image: linear-gradient(45deg,lightSalmon, orangered);
+    color: #fff;
+    padding: 10px 30px;
+    font-weight: 400;
+   text-decoration: none; 
+   border-radius: 8px;
+}
+#section2{
+    margin-top: 100px;;
+    margin-bottom: 100px;;
+    height: 450px; 
+    padding-left: 5%;
+    padding-right: 5%;
+    background-image: url("/images/dream-bg.png"); 
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#section2_div1{
+    width: 35%;
+    float: left;
+    height: 100%;
+}  
+#section2_div2{
+    width: 55%;
+    float: right;
+    /* background-color: violet; */
+    height: 100%;
+}  
+#section2_div1 img {
+    width: 100%;
+}
+
+#section3{
+    height: 450px; 
+    background-image: url("/images/exp-bg.png"); 
+    background-repeat: no-repeat;
+    background-position: left;
+}
+ 
+#section3_div1,#sextion3_div2{
+    padding: 10px;
+    padding-left: 25px; 
+    width: 40%;
+    float: left; 
+    height: 75%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5x;
+    
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,cyan,blue);
+    border-image-slice: 1; 
+}
+#section3_div1{
+    margin-left: 5%;
+    margin-right: 5%;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+    background-color: #fff; 
+} 
+footer p{
+    text-align: center;
+}
