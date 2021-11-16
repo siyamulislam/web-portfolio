@@ -39,7 +39,7 @@ color: rgb(83, 81, 81);
 }
 #section1{
     height: 450px; 
-    background-image: url("/images/top-banner.png"); 
+    background-image: url("/web-portfolio/images/top-banner.png"); 
     background-repeat: no-repeat;
     /* background-color: turquoise; */
     padding-left: 5%;
@@ -59,7 +59,7 @@ a{
     height: 450px; 
     padding-left: 5%;
     padding-right: 5%;
-    background-image: url("/images/dream-bg.png"); 
+    background-image: url("/web-portfolio/images/dream-bg.png"); 
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -80,7 +80,7 @@ a{
 
 #section3{
     height: 450px; 
-    background-image: url("/images/exp-bg.png"); 
+    background-image: url("/web-portfolio/images/exp-bg.png"); 
     background-repeat: no-repeat;
     background-position: left;
 }
